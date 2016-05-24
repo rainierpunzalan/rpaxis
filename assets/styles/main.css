@@ -1,0 +1,41 @@
+#filter {
+  height: 30px !important;
+  padding: 0px 10px !important;
+}
+
+.company-header {
+  margin-top: 20px;
+
+}
+.company-logo {
+  height: 100px;
+  width: 100px;
+  background: url('../images/logo.png') no-repeat;
+  background-size: contain;
+}
+
+.company-name {
+  height: 50px;
+  padding-left: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.time-status {
+  height: 50px;
+  padding-left: 10px;
+  color: #abc0d7;
+  font-size: 16px;
+  font-stretch: extra-expanded;
+}
+
+.form-underline{
+  border:none;
+  border-bottom: 1px solid;
+  width:100% !important;
+}
+.po-table{
+  width:100%;
+}
